@@ -1,0 +1,43 @@
+:root {
+  /* Main */
+  --dark: #000000;
+  --white: #ffffff;
+  --primary: #272930;
+  --secondary: #717377;
+  --tertiary: #4d5896;
+  /* Primary */
+  --brand-primary-900: #2e56e4;
+  --brand-primary-800: #4367e7;
+  --brand-primary-700: #5878e9;
+  --brand-primary-600: #6d89ec;
+  --brand-primary-500: #829aef;
+  --brand-primary-400: #97abf2;
+  --brand-primary-300: #abbbf4;
+  --brand-primary-200: #c0ccf7;
+  --brand-primary-100: #d5ddfa;
+  --brand-primary-000: #eaeefc;
+  /* gray */
+  --gray-700: #52545a;
+  --gray-600: #727478;
+  --gray-500: #939498;
+  --gray-400: #e6e6e6;
+  --gray-300: #f8f8f8;
+  --gray-200: #fafafa;
+  --gray-100: #f7f7f7;
+  /* red */
+  --red-400: #d70000;
+  --red-300: #ee0e0e;
+  --red-200: #ff2525;
+  --red-100: #ff8d8d;
+  /* green */
+  --green-400: #33c200;
+  --green-300: #56db26;
+  --green-200: #94f670;
+  --green-100: #c1ffab;
+  /* blue */
+  --blue-300: #123ac8;
+  --blue-200: #1c44d2;
+  --blue-100: #a9b9f2;
+}
+
+$headerHeight: 80px;

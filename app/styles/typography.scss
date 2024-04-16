@@ -1,0 +1,85 @@
+@layer components {
+  // HEADINGS
+  /* H1 font/heading/large/semibold/desktop */
+  .heading-large {
+    @apply text-large md:text-prelarge font-semibold leading-1 tracking-[-3.2px] md:tracking-[-2.8px];
+  }
+  /* H2 font/heading/default/semibold/desktop */
+  .heading-default {
+    @apply text-3xl  md:text-2xl font-semibold leading-2 tracking-[-0.544px] md:tracking-[-0.408px];
+  }
+  /* H3 font/heading/small/semibold/desktop */
+  .heading-small {
+    @apply text-2xl md:text-xl font-semibold leading-3 tracking-[-0.408px] md:tracking-[-0.304px];
+  }
+
+  // BODY
+  /* paragraph font/paragraph/default/medium/desktop */
+  .paragraph {
+    @apply text-ellipsis text-medium md:text-base font-medium leading-p tracking-[-0.272px] md:tracking-[-0.236px];
+  }
+  /* body large */
+  .body-large-medium {
+    @apply text-xl md:text-big font-medium leading-1 tracking-[-0.34px] md:tracking-[-0.306px];
+  }
+  .body-large-semibold {
+    @apply text-xl md:text-big font-semibold leading-1 tracking-[-0.34px] md:tracking-[-0.306px];
+  }
+  /* body default */
+  .body-default-medium {
+    @apply text-medium md:text-base font-medium leading-1 tracking-[-0.272px] md:tracking-[-0.236px];
+  }
+  .body-default-semibold {
+    @apply text-medium md:text-base font-semibold leading-1 tracking-[-0.272px] md:tracking-[-0.236px];
+  }
+  .body-default-semibold {
+    @apply text-medium md:text-base font-normal leading-1 tracking-[-0.272px] md:tracking-[-0.236px];
+  }
+  /* caption */
+  .caption-default-semibold {
+    @apply text-base md:text-small font-semibold leading-1 tracking-[-0.07px] md:tracking-[-0.06px];
+  }
+  .caption-default-medium {
+    @apply text-base md:text-small font-medium leading-1 tracking-[-0.07px] md:tracking-[-0.06px];
+  }
+  .caption-default-numbers {
+    @apply text-base md:text-small font-medium leading-1 tracking-[-0.07px] md:tracking-[-0.36px] lining-nums tabular-nums;
+  }
+  .caption-default-regular {
+    @apply text-base md:text-small font-normal leading-1 tracking-[-0.07px] md:tracking-[-0.06px];
+  }
+  /* Мета */
+  .meta-default-medium {
+    @apply text-small md:text-ultrasmall font-medium leading-1;
+  }
+
+  // TABLE
+  /* font/table_heading/default/semibold/mobile */
+  .table_heading-medium {
+    @apply text-base font-semibold leading-1 tracking-[-0.238px];
+  }
+  .table_heading-medium {
+    @apply text-base font-normal leading-1 tracking-[-0.238px];
+  }
+  .table-large-medium {
+    @apply text-ellipsis text-xl md:text-medium font-medium leading-1 tracking-[-0.34px] md:tracking-[-0.272px];
+  }
+  .table-large-regular {
+    @apply text-ellipsis text-xl md:text-mediumfont-normal leading-p tracking-[-0.34px] md:tracking-[-0.272px];
+  }
+  .table-default-medium {
+    @apply text-big md:text-base font-normal leading-1 tracking-[-0.306px] md:tracking-[-0.238px];
+  }
+  .table-default-numbers {
+    @apply text-big md:text-base font-medium leading-1 tracking-[-0.9px] md:tracking-[-0.7px] lining-nums tabular-nums;
+  }
+  .table-default-numbers_regular {
+    @apply text-big md:text-base font-normal leading-1 tracking-[-0.9px] md:tracking-[-0.7px] lining-nums tabular-nums;
+  }
+  .table-small-numbers {
+    @apply text-medium md:text-small font-medium leading-1 tracking-[-0.8px] md:tracking-[-0.6px];
+  }
+  .caption_table-default-regular {
+    @apply text-ellipsis text-medium md:text-small font-medium leading-1 tracking-[-0.272px] md:tracking-[-0.204px];
+  }
+}
